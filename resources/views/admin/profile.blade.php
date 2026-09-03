@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Telecom')
+@section('title', 'IPSUM')
 
 
 @section('content_header')
@@ -168,7 +168,7 @@
 @stop
 
 @section('css')
-<link rel=" icon" type="icon" href="vendor/adminlte/dist/img/LOGO.png" />
+<link rel=" icon" type="icon" href="vendor/adminlte/dist/img/logo_p.png" />
 
     {{-- Add here extra stylesheets --}}
     {{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}

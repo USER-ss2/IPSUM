@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Telecom')
+@section('title', 'IPSUM')
 
 @section('content_header')
     <div class="content-header">
@@ -125,7 +125,7 @@
 
 @section('css')
 <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
-<link rel=" icon" type="icon" href="vendor/adminlte/dist/img/LOGO.png" />
+<link rel=" icon" type="icon" href="vendor/adminlte/dist/img/logo_p.png" />
 @stop
 
 @section('js')
