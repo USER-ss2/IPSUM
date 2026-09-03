@@ -1,23 +1,23 @@
-# 🛠️ Gestion des Incidents Réseaux
+#  Gestion des Incidents Réseaux
 
 Application web développée avec **Laravel** permettant de gérer, consulter et suivre les incidents réseaux.
 L'application permet notamment de gérer les utilisateurs, les incidents et leurs différentes informations : état, phase, catégorie, région, domaine, groupe d'affectation, solution, etc.
 
-## 📌 Description
+##  Description
 
 Cette application a pour objectif de centraliser la **gestion des incidents** au sein d'une plateforme web.
 
 Elle permet de :
 
-* 👤 Gérer les utilisateurs
-* 🔐 Gérer les profils et les droits d'accès
-* 🔎 Consulter les incidents
-* 📊 Suivre l'état et la phase des incidents
-* 🌍 Filtrer les incidents
+*  Gérer les utilisateurs
+*  Gérer les profils et les droits d'accès
+*  Consulter les incidents
+*  Suivre l'état et la phase des incidents
+*  Filtrer les incidents
 
 ---
 
-## 🚀 Technologies utilisées
+##  Technologies utilisées
 
 ### Backend
 
@@ -38,7 +38,7 @@ Elle permet de :
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## 1. Cloner le projet
 
@@ -96,7 +96,7 @@ php artisan key:generate
 
 ---
 
-# 🗄️ Configuration de la base de données
+#  Configuration de la base de données
 
 Créer une base de données MySQL, par exemple :
 
@@ -119,7 +119,7 @@ Adapter les valeurs selon votre configuration MySQL.
 
 ---
 
-# 🔄 Migrations
+#  Migrations
 
 Pour créer les tables de la base de données :
 
@@ -135,9 +135,9 @@ php artisan migrate:status
 
 ---
 
-## 🧹 Réinitialiser complètement la base
+##  Réinitialiser complètement la base
 
-⚠️ Cette commande supprime toutes les tables et toutes leurs données.
+ Cette commande supprime toutes les tables et toutes leurs données.
 
 ```bash
 php artisan migrate:fresh
@@ -151,7 +151,7 @@ php artisan migrate:fresh --seed
 
 ---
 
-# 🌱 Seeders
+#  Seeders
 
 Le projet contient un `DatabaseSeeder` permettant de créer des données de test.
 
@@ -180,14 +180,14 @@ Password : Admin123!
 Profil   : admin
 ```
 
-> ⚠️ Ces identifiants sont destinés uniquement au développement et doivent être modifiés dans un environnement réel.
+>  Ces identifiants sont destinés uniquement au développement et doivent être modifiés dans un environnement réel.
 
 ---
 
 
 ---
 
-# ▶️ Lancer l'application
+#  Lancer l'application
 
 ##  Démarrer Laravel
 
@@ -205,7 +205,7 @@ http://127.0.0.1:8000
 
 ---
 
-# 🚀 Démarrage rapide
+#  Démarrage rapide
 
 Après avoir cloné le projet, les commandes principales sont :
 
@@ -295,11 +295,11 @@ En environnement de développement :
 php artisan migrate:fresh --seed
 ```
 
-⚠️ Cette commande supprime les données existantes.
+ Cette commande supprime les données existantes.
 
 ---
 
-# 👩‍💻 Développement
+#  Développement
 
 Pour travailler sur le projet, lancer le terminal:
 
